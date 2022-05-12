@@ -1,0 +1,65 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Satisfy&display=swap" rel="stylesheet">
+<script defer src="script.js"></script>
+    
+    <title>Magic 8 Ball</title>
+</head>
+
+
+<body>
+<!-- Start of Question Section -->
+    <div id="content">
+        <h1>Magic 8 Ball</h1>
+        <h2>Ask about your destiny below:</h2>
+        <textarea name="" id="questionArea" cols="30" rows="5"></textarea>
+        <br>
+        <button>Answer</button>
+<!-- End of Question Section -->
+
+<!-- Start of 8ball -->
+        <div id="eightball">
+            <p id="answer">You got it pal</p>
+        </div>
+<!-- End of 8ball -->
+
+    </div>
+
+<!-- Start of style -->
+    <style>
+        #content {
+            text-align: center;
+            color: whitesmoke
+            ;
+        }
+        #eightball {
+            width: 350px;
+            height: 350px;
+            background: black;
+            color: aliceblue;
+            margin: auto;
+            margin-top: 15px;
+            border-radius: 100%;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+         }
+
+         #answer {
+             font-size: 25px;
+         }
+        
+        
+    </style>
+<!-- End of style -->
+
+   
+</body>
+</html>
